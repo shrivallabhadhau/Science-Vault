@@ -1,0 +1,29 @@
+body{
+    background-color: #070219;
+    color: #ffffff;
+
+}
+
+p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+a{
+    font-size: 20px;
+}
+
+ul{
+    font-size: 15px;
+}
+
+ol{
+    font-size: 15px;
+}
+
+#mainheading{
+    text-align: center;
+    font-family: 'Brush Script MT', cursive;
+    margin-top: 50px;
+    font-size: 100px;
+}
