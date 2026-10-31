@@ -1,7 +1,18 @@
 body{
-    background-color: #070219;
-    color: #ffffff;
+    margin:0;
+    min-height:100vh;
+    background-color:#070219;
+    background-image:
+    radial-gradient(2px 2px at 20px 30px, white, transparent),
+    radial-gradient(2px 2px at 40px 70px, white, transparent),
+    radial-gradient(1px 1px at 90px 40px, white, transparent),
+    radial-gradient(2px 2px at 130px 80px, white, transparent),
+    radial-gradient(1px 1px at 160px 20px, white, transparent);
 
+    background-repeat: repeat;
+    background-size: 200px 100px;
+    color: white;
+    margin: 25px 25px 25px 25px;
 }
 
 p{
@@ -26,4 +37,8 @@ ol{
     font-family: 'Brush Script MT', cursive;
     margin-top: 50px;
     font-size: 100px;
+}
+
+a{
+    color: white;
 }
